@@ -24,5 +24,9 @@
     font-size: 20px;
 }
 
+.services-card{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1.5rem
+}
 
 

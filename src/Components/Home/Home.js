@@ -5,7 +5,7 @@ import image1 from '../../Images/Banner Images/image-1.jpg';
 import image2 from '../../Images/Banner Images/image-2.jpg';
 import image3 from '../../Images/Banner Images/image-3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock, faEnvelope, faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';
+import { faClock, faEnvelope, faMapMarkerAlt, faStethoscope} from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Person1 from '../../Images/Person Images/image1.jpg';
 import Person2 from '../../Images/Person Images/image2.jpg';
@@ -19,7 +19,6 @@ import Service4 from '../../Images/icons/radiology.webp'
 import Service5 from '../../Images/icons/emergencycare.webp'
 import Service6 from '../../Images/icons/pharmacy.webp'
 import Service from '../Service/Service';
-import Services from '../Services/Services';
 
 
 
@@ -40,7 +39,7 @@ const Home = () => {
 
         <div>
             {/* Carousel Section/ banner section here */}
-            <div>
+            <section>
             <Carousel fade className='carousel-container'>
             <Carousel.Item>
                 <img
@@ -93,11 +92,11 @@ const Home = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>
-        </div>
+        </section>
 
         {/* Medica info section */}
 
-        <div className='medica-info-section'>
+        <section className='medica-info-section shadow'>
             <div className='container'>
             <div className='row align-items-center justify-content-center'>
                 <div className='col-12 col-md-6 col-lg-4 p-3'>
@@ -133,11 +132,11 @@ const Home = () => {
             </div>
             </div>
             
-        </div>
+        </section>
 
         {/* Medica about us section */}
 
-        <div className=' medica-about-us-section'>
+        <section className=' medica-about-us-section'>
         <div className='container mt-5'>
         <div className='row mt-3'>
             <div className='medica-about-info col-12 col-md-6 col-lg-7'>
@@ -172,12 +171,12 @@ const Home = () => {
             </div>
         </div>
         </div>
-        </div>
+        </section>
 
 
         {/* Our Services */}
 
-        <div className='our-services'>
+        <section className='our-services'>
             <div>
                 <div className='mt-5'>
                     <h1 className='text-center fw-bold mt-5 mb-5'>Our <span className='text-primary'> Services</span></h1>
@@ -234,23 +233,75 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div className='container'>
+        {/* Ambulance Services */}
+
+        <section className='container'>
             <div className='text-center mt-4'>
                 <h2 className='mt-5 mb-5 fw-bold'><span className='text-primary'>Ambulance</span> Service</h2>
             </div>
-            <div className='row row-cols-12 row-cols-md-2 row-cols-lg-3 '>
+            <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 home-service-card '>
                 {
                     slicedService.map(service => <Service key={service._id} service={service}></Service>)
                 }
             </div>
-            <div className='text-center'>
+            <div className='text-center mt-4 mb-5'>
                 <Link className='text-decoration-none' to='/services'><button className='btn'>See More</button></Link>
             </div>
-        </div>
+        </section>
 
+            {/* Why Choose Us */}
+            <section>
+            <div className='overflow-hidden choose-us-sec'>
+                <div className='container'>
+                    <div className='text-center choose-us-title'>
+                        <h1 className='fs-3'>Why Choose Medica?</h1>
+                        <p className='choose-us-title-down-line'></p>
+                    </div>
+                    <div className='row row-cols-2 row-cols-md-3 row-cols-lg-4'>
+                        <div className='col text-center'>
+                            <FontAwesomeIcon className='choose-us-icon mb-2' icon={faStethoscope} />
+                            <p className='fs-5 fw-bold mt-2'>More experience</p>
+                            <p className='fs-6'>Every year, more than a million people come to Medica for care. Our highly specialized experts are deeply experienced in treating rare and complex conditions.</p>
+                        </div>
 
+                        <div className='col text-center'>
+                            <FontAwesomeIcon className='choose-us-icon mb-2' icon={faStethoscope} />
+                            <p className='fs-5 fw-bold mt-2'>The right answers</p>
+                            <p className='fs-6'>Successful treatment starts with an accurate diagnosis, and our experts take the time to get it right. A team of specialists will listen to your needs and evaluate your condition from every angle to make the very best plan for you.</p>
+                        </div>
+
+                        <div className='col text-center'>
+                            <FontAwesomeIcon className='choose-us-icon mb-2' icon={faStethoscope} />
+                            <p className='fs-5 fw-bold mt-2'>Seamless care</p>
+                            <p className='fs-6'>At Medica, every aspect of your care is coordinated and teams of experts work together to provide exactly the care you need. What might take months elsewhere can often be done in days here.</p>
+                        </div>
+
+                        <div className='col text-center'>
+                            <FontAwesomeIcon className='choose-us-icon mb-2' icon={faStethoscope} />
+                            <p className='fs-5 fw-bold mt-2'>Unparalleled expertise</p>
+                            <p className='fs-6'>Medic experts are some of the best in the world. In the U.S. News & World Report rankings of top hospitals, Medica is consistently ranked among the top hospitals in the nation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        {/* Appointment Offer  */}
+
+        <section className='appointment-offer shadow'>
+                    <div className='container'>
+                        <div className='d-lg-flex justify-content-lg-between justify-content-xl-between d-xl-flex align-items-center'>
+                            <div className=''>
+                                <span className='fs-3'>Make your appointment today!</span> <br />
+                                <span className='fs-5'>Tell us about your needs.</span>
+                            </div>
+                            <div className='appointment-offer-number'>
+                                <button className='appointment-offer-number-btn fs-4' disabled>+34 586 778 8892</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
 

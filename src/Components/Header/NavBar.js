@@ -8,7 +8,7 @@ import './NavBar.css';
 const NavBar = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" className='sticky-top navbar-style'>
+            <Navbar collapseOnSelect expand="lg" className='sticky-top navbar-style shadow'>
             <Container>
                 <Link className=' nav-logo fs-2 text-uppercase' to='/home'>Medica</Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

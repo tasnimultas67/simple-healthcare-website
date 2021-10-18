@@ -1,13 +1,14 @@
 
 
-
-.card-container{
-    width: 400px;
-    height: 500px;
-}
-.card-container img{
+.service-image{
     width: 100%;
 }
-.service-card{
+.card-container{
     height: 550px;
+    overflow: hidden;
+
 }
+
+
+
+

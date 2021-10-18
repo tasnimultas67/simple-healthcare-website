@@ -128,3 +128,72 @@ overflow: hidden;
 padding-top: 30px;
 padding-bottom: 50px;
 }
+.home-service-card{
+  --bs-gutter-y: 1.5rem;
+}
+
+/* #ebf0f8 !important */
+
+.choose-us-icon{
+  border: 2px solid #007bff;
+  padding: 10px;
+  font-size: 55px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+.choose-us-sec{
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background-color: #ebf0f8;
+  margin-top: 30px;
+  
+}
+.choose-us-title{
+  margin-bottom: 60px;
+}
+.choose-us-title-down-line{
+  width: 10%;
+  height: 2px;
+  background-color: #007bff;
+  margin: auto;
+
+}
+.appointment-offer{
+  padding: 40px;
+  background-color: #007bff;
+  margin: auto;
+  width: 100%;
+  color: white;
+
+}
+.appointment-offer-number{
+  margin-top: 30px;
+}
+.appointment-offer-number-btn{
+  padding: 15px 40px;
+  background-color: transparent;
+  border:2px solid #acaeb1;
+  border-radius: 30px;
+  color: white;
+  margin-right: 20px;
+
+}
+/* .thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+} */
+
+.discount-offer{
+  width: 100%;
+  height: 700px;
+  background-color: #5DADE2;
+
+}
