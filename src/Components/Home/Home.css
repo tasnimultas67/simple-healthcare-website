@@ -1,0 +1,130 @@
+.carousel-container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel .carousel-item {
+    height: 35rem;
+  }
+  
+
+.carousel-img{
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 40%;
+}
+
+
+.caro-btn{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.5s;
+}
+.caro-btn:hover{
+    background-color: #007bff;
+    color: white;
+    border:1px solid #007bff;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 614px) {
+    .carousel-info-title {
+      font-size: 20px;
+    }
+    .carousel-info-p{
+        font-size: 20px;
+    }
+    .caro-btn{
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px 15px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .carousel-info-title {
+      font-size: 60px;
+    }
+    .carousel-info-p{
+        font-size: 15px;
+    }
+    .caro-btn{
+        font-size: 10px;
+        font-weight: bold;
+        padding: 8px 12px;
+    }
+  }
+  @media screen and (max-width: 1312px) {
+    .carousel-info-title {
+      font-size: 50px;
+    }
+    .carousel-info-p{
+        font-size: 20px;
+    }
+    .caro-btn{
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px 15px;
+    }
+  }
+  @media screen and (min-width: 1312px) {
+    .carousel-info-title {
+      font-size: 70px;
+    }
+    .carousel-info-p{
+        font-size: 25px;
+    }
+    .caro-btn{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 12px 17px;
+    }
+  }
+
+
+.medica-info-section{
+    padding-bottom: 10px;
+    overflow: hidden;
+    padding-top: 10px;
+    background-color: #f2f4f8;
+}
+
+.about-person-img{
+  width: 400px;
+}
+.medica-about-info-title{
+  font-weight: 600;
+}
+.medica-about-btn{
+  padding: 15px 22px;
+  border: 1px solid #acaeb1;
+  font-weight: 600;
+}
+.medica-about-btn:hover{
+  background-color: transparent;
+}
+.medica-about-us-section{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.our-services{
+background-color: #5DADE2;
+color: white;
+overflow: hidden;
+padding-top: 30px;
+padding-bottom: 50px;
+}

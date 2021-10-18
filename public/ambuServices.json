@@ -1,0 +1,107 @@
+[
+    {
+        "_id" : 1,
+        "service_name" : "Dialysis transportation",
+        "company" : "Medica",
+        "service_charge" : 300,
+        "rating": 4.5,
+        "image_url" : "https://i.ibb.co/rcjxy5n/image-13.jpg"
+    },
+    {
+        "_id" : 2,
+        "service_name" : "Woundcare transportation",
+        "company" : "Medica",
+        "service_charge" : 400,
+        "rating": 4.1,
+        "image_url" : "https://i.ibb.co/zsKDM7f/image-12.jpg"
+    },
+    {
+        "_id" : 3,
+        "service_name" : "Radiation transportation",
+        "company" : "Medica",
+        "service_charge" : 300,
+        "rating": 4.0,
+        "image_url" : "https://i.ibb.co/cxtjfg5/image-11.jpg"
+    },
+    {
+        "_id" : 4,
+        "service_name" : "Doctors Visits",
+        "company" : "Medica",
+        "service_charge" : 200,
+        "rating": 4.7,
+        "image_url" : "https://i.ibb.co/Cw8vmm8/image-10.jpg"
+    },
+    {
+        "_id" : 5,
+        "service_name" : "BLS – Basic Life Support",
+        "company" : "Medica",
+        "service_charge" : 350,
+        "rating": 4.5,
+        "image_url" : "https://i.ibb.co/z7QpWt2/image-9.jpg"
+    },
+    {
+        "_id" : 6,
+        "service_name" : "​ALS – Advanced Life Support",
+        "company" : "Medica",
+        "service_charge" : 450,
+        "rating": 4.2,
+        "image_url" : "https://i.ibb.co/svzQqjZ/image-7.jpg"
+    },
+    {
+        "_id" : 7,
+        "service_name" : "​Paramedic Intercept",
+        "company" : "Medica",
+        "service_charge" : 300,
+        "rating": 3.9,
+        "image_url" : "https://i.ibb.co/4grQ1PF/image-8.jpg"
+    },
+    {
+        "_id" : 8,
+        "service_name" : "​Critical Care Transport",
+        "company" : "Medica",
+        "service_charge" : 500,
+        "rating": 3.8,
+        "image_url" : "https://i.ibb.co/PDtGyYK/image-6.jpg"
+    },
+    {
+        "_id" : 9,
+        "service_name" : "​Non-Emergency Transportation",
+        "company" : "Medica",
+        "service_charge" : 300,
+        "rating": 4.0,
+        "image_url" : "https://i.ibb.co/dk6zJQt/image-2.jpg"
+    },
+    {
+        "_id" : 10,
+        "service_name" : "​Dialysis/Radiation Treatment",
+        "company" : "Medica",
+        "service_charge" : 400,
+        "rating": 4.3,
+        "image_url" : "https://i.ibb.co/tqr9wrW/image-5.jpg"
+    },
+    {
+        "_id" : 11,
+        "service_name" : "Hospital Discharge",
+        "company" : "Medica",
+        "service_charge" : 400,
+        "rating": 3.8,
+        "image_url" : "https://i.ibb.co/LSbdjxB/image-4.jpg"
+    },
+    {
+        "_id" : 12,
+        "service_name" : "Dialysis transportation",
+        "company" : "Medica",
+        "service_charge" : 500,
+        "rating": 3.8,
+        "image_url" : "https://i.ibb.co/HXZqYFN/image-3.jpg"
+    },
+    {
+        "_id" : 13,
+        "service_name" : "Door to Door Services",
+        "company" : "Medica",
+        "service_charge" : 200,
+        "rating": 4.5,
+        "image_url" : "https://i.ibb.co/qn2DjhS/image-1.jpg"
+    }
+
+]

@@ -1,0 +1,28 @@
+.search-field{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.search-input{
+    padding: 10px 20px;
+    font-size: 16px;
+
+}
+.search-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333FFF;
+    color: white;
+    border: 3px solid #333FFF;
+}
+.service-related-info{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+

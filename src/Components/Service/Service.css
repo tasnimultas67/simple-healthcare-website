@@ -1,0 +1,13 @@
+
+
+
+.card-container{
+    width: 400px;
+    height: 500px;
+}
+.card-container img{
+    width: 100%;
+}
+.service-card{
+    height: 550px;
+}

@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:400,500,700);
+
+.navbar-style{
+    font-family: 'Roboto',sans-serif;
+    background-color: #f2f4f8;
+}
+
+.nav-logo{
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
+}
