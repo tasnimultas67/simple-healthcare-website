@@ -1,0 +1,10 @@
+.footer-section{
+    width: 100%;
+    background-color: #f2f4f8;
+    overflow: hidden;
+}
+.opening-hours{
+    width: 300px;
+    padding: 5px 20px;
+    border:  2px solid gray;
+}

@@ -1,0 +1,122 @@
+{
+    "service" : [
+                    {
+                        "id": "ser1",
+                        "service_name" : "Dialysis transportation",
+                        "company" : "Medica",
+                        "service_charge" : 300,
+                        "discription" : "Making plans to travel to and from dialysis can be a stress for patients and their families. Many communities have services available to assist with medical transportation (at a cost). Families may assist with transportation and some patients may be able to drive themselves. For some patients/families, covering the cost of transportation causes a financial hardship. Some community organizations providing transportation support have subsidies available to offset costs. In addition, you may be eligible for short-term financial assistance through the Renal Program or the Kidney Foundation.",
+                        "rating": 4.5,
+                        "image_url" : "https://i.ibb.co/rcjxy5n/image-13.jpg"
+                    },
+                    {
+                        "id" : "ser2",
+                        "service_name" : "Woundcare transportation",
+                        "company" : "Medica",
+                        "service_charge" : 400,
+                        "discription" : "In order to properly treat patients with open wounds, your EMS providers will need to be prepared with the appropriate supplies in their medical transport vehicles and kits. They will need wound care items such as sterile gauze, wound closures, saline, tourniquets, and dressings. Don't forget personal protective equipment for EMS providers such as eye protection, gloves, and masks.Your rigs should stock absorbent mats that absorb 10x their weight for mess prevention and quick cleanup. Make sure there are plenty of disposable bedding supplies available such as sheets to cover stretchers and pillows to stabilize and elevate injuries. Be prepared with single-use blankets to prevent shock and protect injuries from the elements.",
+                        "rating": 4.1,
+                        "image_url" : "https://i.ibb.co/zsKDM7f/image-12.jpg"
+                    },
+                    {
+                        "id" : "ser3",
+                        "service_name" : "Radiation transportation",
+                        "company" : "Medica",
+                        "service_charge" : 300,
+                        "discription":"Every year, about three million shipments that contain radioactive material are transported in the United States. Radioactive material is used in medicine, power generation, research and manufacturing, and by the military. Like other products and materials, radioactive material is shipped from one location to another. Radioactive material can be transported by truck, train, plane or ship. There are special regulations that help keep drivers, the public, and the environment safe. The packaging used to transport radioactive material is tested to make sure it will keep people safe if there is an accident",
+                        "rating": 4.0,
+                        "image_url" : "https://i.ibb.co/cxtjfg5/image-11.jpg"
+                    },
+                    {
+                        "id" : "ser4",
+                        "service_name" : "Doctors Visits",
+                        "company" : "Medica",
+                        "service_charge" : 200,
+                        "discription":"With increasing access to computers and published online medical articles, the internet has increased the ability to perform self-diagnosis instead of going to a professional health care provider. Doctors may be fearful of misleading information and being inundated by emails from patients which take time to read and respond to (time for which they are not paid). About three-quarters of the U.S. population reports having a primary care physician, but the Primary Care Assessment Survey found a significant erosion in the quality of primary care from 1996 to 2000, most notably in the interpersonal treatment and thoroughness of physical examinations.",
+                        "rating": 4.7,
+                        "image_url" : "https://i.ibb.co/Cw8vmm8/image-10.jpg"
+                    },
+                    {
+                        "id" : "ser5",
+                        "service_name" : "BLS – Basic Life Support",
+                        "company" : "Medica",
+                        "service_charge" : 350,
+                        "discription":"Basic life support (BLS) is a level of medical care which is used for victims of life-threatening illnesses or injuries until they can be given full medical care by advanced life support providers (paramedics, nurses, physicians). It can be provided by trained medical personnel, such as emergency medical technicians, and by qualified bystanders. The AHA’s BLS course trains participants to promptly recognize several life-threatening emergencies, give high-quality chest compressions, deliver appropriate ventilations and provide early use of an AED. Reflects science and education from the American Heart Association Guidelines Update for CPR and Emergency Cardiovascular Care (ECC).",
+                        "rating": 4.5,
+                        "image_url" : "https://i.ibb.co/z7QpWt2/image-9.jpg"
+                    },
+                    {
+                        "id" : "ser6",
+                        "service_name" : "​ALS – Advanced Life Support",
+                        "company" : "Medica",
+                        "service_charge" : 450,
+                        "discription":"Advanced Life Support (ALS) is a set of life saving protocols and skills that extend basic life support to further support the circulation and provide an open airway and adequate ventilation (breathing). In out-of-hospital settings, trained paramedics and some specifically trained emergency medical technicians typically provide this level of care. Canadian paramedics may be certified in either ALS (Advanced Care Paramedic-ACP) or in basic life support (Primary Care Paramedic-PCP). Some Primary Care Paramedics are also trained in intravenous cannulation, and are referred to as PCP-IV (see paramedics in Canada). Emergency medical technicians (EMTs) are often skilled in ALS,",
+                        "rating": 4.2,
+                        "image_url" : "https://i.ibb.co/svzQqjZ/image-7.jpg"
+                    },
+                    {
+                        "id" : "ser7",
+                        "service_name" : "​Paramedic Intercept",
+                        "company" : "Medica",
+                        "service_charge" : 300,
+                        "discription":"A Paramedic intercept could mean many things.Not every EMS call require the higher level of care that a Paramedic can provide and there are many different models of how to staff and respond accordingly.One method is for the dispatch to send the appropriate resources based on information gathered from the initial call for service. For instance, a report of a minor traumatic injury would trigger a BLS response versus a report serious traumatic injury or serious medical problem.If upon arrival the BLS crew determines that the nature of the call requires a higher level of care, they will upgrade the call to an ALS call and request a Paramedic. The Paramedic may be responding via a rapid response vehicle or may part of an ALS ambulance crew,",
+                        "rating": 3.9,
+                        "image_url" : "https://i.ibb.co/4grQ1PF/image-8.jpg"
+                    },
+                    {
+                        "id" : "ser8",
+                        "service_name" : "​Critical Care Transport",
+                        "company" : "Medica",
+                        "service_charge" : 500,
+                        "discription":"ritical Care Transport is a hospital-based, inter-facility transport program for patients in the United States and worldwide who require transport from one medical facility to another. ... Jet aircraft-based intensive care units provide advanced support during long-distance transports.When critically ill patients must be transported from one facility to another, our Critical Care Transport (CCT) program is there to provide continuous intensive care during transit.Under the Emergency Medical Treatment and Active Labor Act (EMTALA), critically ill patients must receive the same high level of care and monitoring during a transport that they were receiving during their hospital stay. In the past, this has placed the burden on the referring facility to send their own staff with the ambulance to provide this continuous higher level of patient care, which often left the facility short staffed.",
+                        "rating": 3.8,
+                        "image_url" : "https://i.ibb.co/PDtGyYK/image-6.jpg"
+                    },
+                    {
+                        "id" : "ser9",
+                        "service_name" : "​Non-Emergency Transportation",
+                        "company" : "Medica",
+                        "service_charge" : 300,
+                        "discription":"Non-emergency medical transportation (NEMT) is an important benefit for people who need assistance getting to and from medical appointments. Our resources for providers explain important guidelines such as the difference between emergency and non-emergency medical transportation, accepted types of transportation, the types of transportation service delivery systems, and driver and vehicle acceptance criteria. We also discuss common fraud schemes and provide fraud and abuse prevention tips. The fact sheet for beneficiaries gives an overview of the NEMT benefit.",
+                        "rating": 4.0,
+                        "image_url" : "https://i.ibb.co/dk6zJQt/image-2.jpg"
+                    },
+                    {
+                        "id" : "ser10",
+                        "service_name" : "​Dialysis/Radiation Treatment",
+                        "company" : "Medica",
+                        "service_charge" : 400,
+                        "discription":"Making plans to travel to and from dialysis can be a stress for patients and their families. Many communities have services available to assist with medical transportation (at a cost). Families may assist with transportation and some patients may be able to drive themselves. Every year, about three million shipments that contain radioactive material are transported in the United States. Radioactive material is used in medicine, power generation, research and manufacturing, and by the military. Like other products and materials, radioactive material is shipped from one location to another.",
+                        "rating": 4.3,
+                        "image_url" : "https://i.ibb.co/tqr9wrW/image-5.jpg"
+                    },
+                    {
+                        "id" : "ser11",
+                        "service_name" : "Hospital Discharge",
+                        "company" : "Medica",
+                        "service_charge" : 400,
+                        "discription":"Each hospital has its own discharge policy. You should be able to get a copy from the ward manager or the hospital's Patient Advice and Liaison Service (PALS).Once you're admitted to hospital, your treatment plan, including details for discharge or transfer, will be developed and discussed with you.A discharge assessment will determine whether you need more care after you leave hospital.You should be fully involved in the assessment process. With your permission, family or carers will also be kept informed and given the opportunity to contribute.If you need help putting your views across, an independent advocate may be able to help.",
+                        "rating": 3.8,
+                        "image_url" : "https://i.ibb.co/LSbdjxB/image-4.jpg"
+                    },
+                    {
+                        "id" : "ser12",
+                        "service_name" : "Dialysis transportation",
+                        "company" : "Medica",
+                        "service_charge" : 500,
+                        "discription":"Making plans to travel to and from dialysis can be a stress for patients and their families. Many communities have services available to assist with medical transportation (at a cost). Families may assist with transportation and some patients may be able to drive themselves. For some patients/families, covering the cost of transportation causes a financial hardship. Some community organizations providing transportation support have subsidies available to offset costs. In addition, you may be eligible for short-term financial assistance through the Renal Program or the Kidney Foundation.",
+                        "rating": 3.8,
+                        "image_url" : "https://i.ibb.co/HXZqYFN/image-3.jpg"
+                    },
+                    {
+                        "id" : "ser13",
+                        "service_name" : "Door to Door Services",
+                        "company" : "Medica",
+                        "service_charge" : 200,
+                        "discription":"This method of fundraising is one of the most effective ways for us to gain new supporters and ensures that we can continue our lifesaving service for the people of Wales.Following strict health and safety guidance, our lottery canvassers are now active again. Your safety and the safety of those who are representing us is of paramount importance and you will see this reflected in the processes that will be used by our canvassers.All sign-ups will be completed by our canvasser without the need for a signature (to ensure social distancing can be maintained). Once all the details have been entered by the canvasser, an email or text message will be sent to the new member (immediately) with a link to a digital confirmation form.",
+                        "rating": 4.5,
+                        "image_url" : "https://i.ibb.co/qn2DjhS/image-1.jpg"
+                    }
+    
+                ]
+}

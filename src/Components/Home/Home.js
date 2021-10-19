@@ -7,9 +7,7 @@ import image3 from '../../Images/Banner Images/image-3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faEnvelope, faMapMarkerAlt, faStethoscope} from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import Person1 from '../../Images/Person Images/image1.jpg';
-import Person2 from '../../Images/Person Images/image2.jpg';
-import Person3 from '../../Images/Person Images/image3.jpg';
+
 import Person4 from '../../Images/Person Images/image4.png';
 // Our Services images
 import Service1 from '../../Images/icons/ambulatory.webp'
@@ -144,7 +142,7 @@ const Home = () => {
                     <div><h1 className='medica-about-info-title'><span className='text-primary'>Welcome </span> to <span className='bg-primary text-white'> Medica</span> Health <br /> Center</h1></div>
                 </div>
                 <div>
-                    <p className='text-secondary fs-5 fw-lighter lh-base'>Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh. Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque. Fusce ac mattis nulla. Morbi eget ornare dui. Donec nec fringilla mi. Pellentesque molestie consequat felis vitae elementum. Proin ut tempor urna.</p>
+                    <p className='text-secondary fs-5 fw-lighter lh-base'>We realize that a test result is only one aspect of laboratory medicine and pathology, which is why we have made a substantial investment in our customer service and logistics teams. Every Mayo Clinic Laboratories customer is served by a dedicated team of professionals comprised of a regional manager, regional service representative, clinical specialty representatives, and a laboratory technologist resource coordinator.</p>
                 </div>
                 <div className='row'>
                     <div className='col-12 col-6 col-lg-6 fs-5 lh-lg'>
