@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Contact.css'
 
 
@@ -60,7 +61,7 @@ const Contact = () => {
     </div>
   </div>
   <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sent Now</button>
+    <Link to='/notfound'><button type="submit" class="btn btn-primary">Sent Now</button></Link>
   </div>
 </form>
             </div>

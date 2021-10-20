@@ -8,7 +8,7 @@ import { Link, useLocation,useHistory} from 'react-router-dom';
 
 const Login = () => {
 
-	const {signInUsingGoogle, signInUsingGithub, error, handleEmailLogin, handlePasswordLogin, handleEmailPassLogin} = useAuth()
+	const {user,signInUsingGoogle, signInUsingGithub, error,setError, handleEmailLogin, handlePasswordLogin, handleEmailPassLogin} = useAuth()
 	const location = useLocation()
 	const history =useHistory()
 	const redirect_uri = location.state?.from || '/home'
@@ -28,8 +28,22 @@ const Login = () => {
             const user = result.user
             // console.log(user)
         })
+		.catch(error=>{
+			setError(error.message)
+		})
 	}
 
+	const handleEmailPasswordLogin =()=>{
+		handleEmailPassLogin()
+		.then((userCredential) => {
+			// Signed in 
+			user(userCredential.user);
+			// ...
+		  })
+		  .catch((error) => {
+			setError(error.message);
+		  });
+	}
 
 
     return (
@@ -67,7 +81,7 @@ const Login = () => {
 								/>
 								<label htmlFor="floatingPasswordCustom">Password</label>
 								<p className='text-danger mt-2'>{error}</p>
-								<Button onClick={handleEmailPassLogin} className='btn btn-primary w-100 mt-3 fs-5 fw-bold'>Log In</Button>
+								<Button onClick={handleEmailPasswordLogin} className='btn btn-primary w-100 mt-3 fs-5 fw-bold'>Log In</Button>
 							</Form.Floating>
 							<p className='text-center mt-4 mb-4'>------------------ OR ------------------ </p>
 							<div className='text-center'>
@@ -77,6 +91,7 @@ const Login = () => {
 								<button onClick={handleGithubLogin} className=' login-with-google btn m-2' title='Github Login'>
 								<i className="fab fa-github fs-3 p-2 mx-1 text-primary"></i>
 								</button> <br />
+								<p className='text-danger'>{error}</p>
 								<Link className='text-center' to='/register'>New User? Create Account</Link>
 							</div>
 
